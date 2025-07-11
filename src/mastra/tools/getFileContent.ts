@@ -43,7 +43,6 @@ export const getFileContent = new Tool({
         path,
       });
 
-      // Handle directories
       if (Array.isArray(response.data)) {
         return {
           ok: false as const,
@@ -51,7 +50,6 @@ export const getFileContent = new Tool({
         };
       }
 
-      // Handle files
       if (!("content" in response.data)) {
         return {
           ok: false as const,
@@ -61,7 +59,6 @@ export const getFileContent = new Tool({
 
       let content: string;
       try {
-        // Decode the content from base64 to string
         content = Buffer.from(response.data.content, "base64").toString(
           "utf-8"
         );
