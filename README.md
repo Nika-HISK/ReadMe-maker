@@ -24,7 +24,6 @@ The generated README includes:
 - Contributing guidelines
 
 ## 🚀 How to Run
-
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/Nika-HISK/ReadMe-maker.git
