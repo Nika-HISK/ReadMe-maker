@@ -196,7 +196,7 @@ npm run dev
 
 MIT License - feel free to use this project for your own README generation needs!
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Mastra Framework**: For providing excellent agent orchestration capabilities
 - **Anthropic**: For the powerful Claude AI model
