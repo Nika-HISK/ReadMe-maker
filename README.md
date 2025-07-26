@@ -1,8 +1,8 @@
-# GitHub README Generator with Mastra 🤖📝
+# GitHub README Generator with Mastra 
 
 An intelligent GitHub README generator powered by the Mastra framework and Claude AI. This project automatically analyzes GitHub repositories and generates comprehensive, well-structured README.md files by examining code structure, commit history, and project patterns.
 
-## ✨ Features
+##  Features
 
 - **AI-Powered Analysis**: Uses Claude 3.5 Sonnet to intelligently analyze repository structure and content
 - **Comprehensive Code Scanning**: Examines TypeScript, JavaScript, Python, Java files and configuration files
@@ -12,7 +12,7 @@ An intelligent GitHub README generator powered by the Mastra framework and Claud
 - **Automated Markdown Generation**: Produces clean, properly formatted README files
 - **Multi-Tool Integration**: Combines file analysis, content fetching, and commit tracking
 
-## 🖥️ Example Output
+## Example Output
 
 The generated README includes:
 - Project title with appropriate emoji
@@ -23,7 +23,7 @@ The generated README includes:
 - Recent commit activity
 - Contributing guidelines
 
-## 🚀 How to Run
+##  How to Run
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/Nika-HISK/ReadMe-maker.git
@@ -61,7 +61,7 @@ You: "Create documentation for microsoft/vscode"
 Agent: [Generates comprehensive README for VS Code repository]
 ```
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **Mastra Framework**: Agent orchestration and tool management
 - **Claude 3.5 Sonnet**: AI model for intelligent README generation
@@ -70,7 +70,7 @@ Agent: [Generates comprehensive README for VS Code repository]
 - **Zod**: Runtime type validation and schema definition
 - **TypeScript**: Type-safe development environment
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 src/
@@ -86,7 +86,7 @@ src/
 │   │   └── getRepositoryCommits.ts
 │   └── index.ts
 ```
-## 🔧 Configuration
+##  Configuration
 
 ### Environment Variables
 
@@ -102,7 +102,7 @@ The GitHub agent is configured with:
 - **Memory**: LibSQL-based persistent storage
 - **Tools**: File analysis, content fetching, commit tracking, README generation
 
-## 🎯 How It Works
+##  How It Works
 
 1. **Repository Analysis**: The agent scans the target repository structure
 2. **Content Extraction**: Fetches important files (TypeScript, JavaScript, Python, Java, configs)
@@ -111,7 +111,7 @@ The GitHub agent is configured with:
 5. **README Generation**: Creates a comprehensive README with proper formatting
 6. **Validation**: Ensures markdown formatting is correct and clean
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -119,14 +119,14 @@ The GitHub agent is configured with:
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📋 Prerequisites
+##  Prerequisites
 
 - Node.js (v18 or higher)
 - Anthropic API key
 - GitHub personal access token
 - Basic understanding of TypeScript and AI agents
 
-## 🔒 API Keys Setup
+##  API Keys Setup
 
 ### Anthropic API Key
 1. Visit [Anthropic Console](https://console.anthropic.com/)
@@ -192,7 +192,7 @@ npm run dev
 - docs: update getting started guide
 ```
 
-## 📝 License
+##  License
 
 MIT License - feel free to use this project for your own README generation needs!
 
