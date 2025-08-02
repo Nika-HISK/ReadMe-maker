@@ -139,7 +139,7 @@ The GitHub agent is configured with:
 2. Generate a new token with repository access permissions
 3. Add it to your `.env` file
 
-## 💬 Sample Outputs
+## Sample Outputs
 
 ### Input
 ```
